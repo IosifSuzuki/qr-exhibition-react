@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #6CC2E5;
+  height: 100%;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: content-box;
+}
+
+.horizontal-padding-container {
+  padding: 0 40px;
+}
+
+.default-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
